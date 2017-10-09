@@ -1,0 +1,8 @@
+/__init__.pyc
+/admin.pyc
+/apps.pyc
+/models.pyc
+/permissions.pyc
+/serializers.pyc
+/urls.pyc
+/views.pyc

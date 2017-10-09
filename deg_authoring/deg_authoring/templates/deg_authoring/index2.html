@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block jumbotron %}
+	<!-- Jumbotron -->
+	<div class="jumbotron">
+		<h1>Image uploader</h1>
+		<p class= "lead">This is just a simple view to upload images to the game.
+		</p>
+	</div>
+{% endblock %}	
+
+{% block incrustado %}
+   <h1> Texto del inscrustado</h1>
+{% endblock %}
+
+{% block content %}
+
+    {% if message %}
+      <div class='alert alert-info'>
+        {{ message }}
+      </div>
+    {% endif %}
+
+    <h3>Edu-Game Authoring</h3>
+	{% if latest_game_list %}
+	    <ul>
+	    {% for game in latest_game_list %}
+	        <li>
+	        	<img src="{% static game.images.all.last.image.url %}"/>
+	        	<a href="/deg_authoring/{{ game.id }}/">{{ game.name }}</a>        	
+	        </li>
+	    {% endfor %}
+	    </ul>
+	{% else %}
+	    <p>No games are available.</p>
+	{% endif %}
+     
+<!--     <form  role="form"  enctype="multipart/form-data" action="" method="POST" id="upload-image-form"> 
+        {% csrf_token %}
+        {{ form.as_p }}
+ -->        
+    </form>
+
+{% endblock %}

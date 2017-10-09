@@ -1,0 +1,105 @@
+.color_0 {color: #FFFFFF;}
+.backcolor_0 {background-color: #FFFFFF;}
+.color_1 {color: #FFFFFF;}
+.backcolor_1 {background-color: #FFFFFF;}
+.color_2 {color: #000000;}
+.backcolor_2 {background-color: #000000;}
+.color_3 {color: #ED1C24;}
+.backcolor_3 {background-color: #ED1C24;}
+.color_4 {color: #0088CB;}
+.backcolor_4 {background-color: #0088CB;}
+.color_5 {color: #FFCB05;}
+.backcolor_5 {background-color: #FFCB05;}
+.color_6 {color: #727272;}
+.backcolor_6 {background-color: #727272;}
+.color_7 {color: #B0B0B0;}
+.backcolor_7 {background-color: #B0B0B0;}
+.color_8 {color: #FFFFFF;}
+.backcolor_8 {background-color: #FFFFFF;}
+.color_9 {color: #727272;}
+.backcolor_9 {background-color: #727272;}
+.color_10 {color: #B0B0B0;}
+.backcolor_10 {background-color: #B0B0B0;}
+.color_11 {color: #FFFFFF;}
+.backcolor_11 {background-color: #FFFFFF;}
+.color_12 {color: #E8E6E6;}
+.backcolor_12 {background-color: #E8E6E6;}
+.color_13 {color: #C7C7C7;}
+.backcolor_13 {background-color: #C7C7C7;}
+.color_14 {color: #999997;}
+.backcolor_14 {background-color: #999997;}
+.color_15 {color: #414141;}
+.backcolor_15 {background-color: #414141;}
+.color_16 {color: #BDDFF4;}
+.backcolor_16 {background-color: #BDDFF4;}
+.color_17 {color: #9ACBE9;}
+.backcolor_17 {background-color: #9ACBE9;}
+.color_18 {color: #47A5DE;}
+.backcolor_18 {background-color: #47A5DE;}
+.color_19 {color: #2F6E94;}
+.backcolor_19 {background-color: #2F6E94;}
+.color_20 {color: #18374A;}
+.backcolor_20 {background-color: #18374A;}
+.color_21 {color: #FCC7C1;}
+.backcolor_21 {background-color: #FCC7C1;}
+.color_22 {color: #F8ABA2;}
+.backcolor_22 {background-color: #F8ABA2;}
+.color_23 {color: #F55C4A;}
+.backcolor_23 {background-color: #F55C4A;}
+.color_24 {color: #A33D31;}
+.backcolor_24 {background-color: #A33D31;}
+.color_25 {color: #521F19;}
+.backcolor_25 {background-color: #521F19;}
+.color_26 {color: #FEEDAA;}
+.backcolor_26 {background-color: #FEEDAA;}
+.color_27 {color: #FEE480;}
+.backcolor_27 {background-color: #FEE480;}
+.color_28 {color: #FDC902;}
+.backcolor_28 {background-color: #FDC902;}
+.color_29 {color: #A98601;}
+.backcolor_29 {background-color: #A98601;}
+.color_30 {color: #544301;}
+.backcolor_30 {background-color: #544301;}
+.color_31 {color: #DDECA6;}
+.backcolor_31 {background-color: #DDECA6;}
+.color_32 {color: #C5D879;}
+.backcolor_32 {background-color: #C5D879;}
+.color_33 {color: #A1C517;}
+.backcolor_33 {background-color: #A1C517;}
+.color_34 {color: #6B830F;}
+.backcolor_34 {background-color: #6B830F;}
+.color_35 {color: #364208;}
+.backcolor_35 {background-color: #364208;}
+
+
+/* For small screen */
+/*
+.row :nth-child(even){
+  background-color: #dcdcdc;
+}
+.row :nth-child(odd){
+  background-color: #aaaaaa;
+}
+*/
+/* For medium screen */
+/*    
+@media (min-width: 768px) {
+    .row :nth-child(4n), .row :nth-child(4n-1) {
+        background: #dcdcdc;
+    }
+    .row :nth-child(4n-2), .row :nth-child(4n-3) {
+        background: #aaaaaa;
+    }
+}
+*/
+/* For large screen */
+/*
+@media (min-width: 992px) {
+    .row :nth-child(6n), .row :nth-child(6n-1), .row :nth-child(6n-2) {
+        background: #dcdcdc;
+    }
+    .row :nth-child(6n-3), .row :nth-child(6n-4), .row :nth-child(6n-5) {
+        background: #aaaaaa;
+    }
+}
+*/
