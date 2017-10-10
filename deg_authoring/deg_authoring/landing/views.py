@@ -28,7 +28,8 @@ def game_list(request):
     context = {'latest_game_list': latest_game_list}
     #
     #print ("El primer elemento de la lista es: " + latest_game_list[0].digital_educational_game.name)
-    print ("El primer elemento de la lista es: " + latest_game_list[0].name)
+    if (latest_game_list.count()>0):
+        print ("El primer elemento de la lista es: " + latest_game_list[0].name)
     for element in latest_game_list:
         print(element.images.all())
     #
